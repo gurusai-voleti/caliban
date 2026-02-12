@@ -20,6 +20,6 @@ to create your new bucket:
 
 .. code-block:: bash
 
-   gsutil mb -l $REGION gs://$BUCKET_NAME
+   gcloud storage buckets create --location $REGION gs://$BUCKET_NAME
 
 That's it.

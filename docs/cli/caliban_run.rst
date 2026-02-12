@@ -59,7 +59,7 @@ Your credentials are set up inside the container and available via the required
 via Python should Just Work. (See the :doc:`guide on gcloud authentication
 <../explore/gcloud>` for more detail.)
 
-The base Caliban images also have ``gcloud`` installed; all ``gcloud`` and ``gsutil``
+The base Caliban images also have ``gcloud`` installed; all ``gcloud`` and ``gcloud storage``
 commands will work with the same permissions granted to the key found at
 ``$GOOGLE_APPLICATION_CREDENTIALS``.
 
